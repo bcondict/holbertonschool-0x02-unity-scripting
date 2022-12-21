@@ -5155,3 +5155,21 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 800.988291 seconds.
+  path: Assets/Materials/trap.mat
+  artifactKey: Guid(1fa120f5e81f9054194af89560d55a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/trap.mat using Guid(1fa120f5e81f9054194af89560d55a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9df71f0cae17efcc5a534eecd8e02755') in 0.092369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.305717 seconds.
+  path: Assets/Materials/goal.mat
+  artifactKey: Guid(b4c615ab50a116145bee3289434742fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/goal.mat using Guid(b4c615ab50a116145bee3289434742fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '088947e15201e1334566e19fb4a2398f') in 0.017098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.618677 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e38c4f51bf560356904e6e62dbf120ce') in 0.005279 seconds 
