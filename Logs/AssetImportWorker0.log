@@ -4746,3 +4746,27 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 788.585810 seconds.
+  path: Assets/Materials/trap.mat
+  artifactKey: Guid(1fa120f5e81f9054194af89560d55a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/trap.mat using Guid(1fa120f5e81f9054194af89560d55a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5404b74df8b04ce6236dbf9b3779dc0') in 0.096723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.091559 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e804088c5b69a2f8e4eb0975e35bc596') in 0.005292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.587242 seconds.
+  path: Assets/Prefabs/Trap.prefab
+  artifactKey: Guid(4b4666b1bdc7f7646bb3db526b00c13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Trap.prefab using Guid(4b4666b1bdc7f7646bb3db526b00c13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52c0e4914d8ec864988a2405dfcf2adc') in 0.035647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 48.349837 seconds.
+  path: Assets/Prefabs/Trap.prefab
+  artifactKey: Guid(4b4666b1bdc7f7646bb3db526b00c13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Trap.prefab using Guid(4b4666b1bdc7f7646bb3db526b00c13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a87780e89ede0427aafe4dee81af3ccb') in 0.026548 seconds 
