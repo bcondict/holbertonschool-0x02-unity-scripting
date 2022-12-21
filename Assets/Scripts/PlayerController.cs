@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     private int score = 0;
+    public int health = 5;
     public Rigidbody m_Rigidbody;
     public float speed = 700;
 
@@ -23,37 +24,20 @@ public class PlayerController : MonoBehaviour
             m_Rigidbody.AddForce(0, 0, speed * Time.deltaTime);
         if (Input.GetKey("s"))
             m_Rigidbody.AddForce(0, 0, -speed * Time.deltaTime);
-
-        // if (Input.GetKey("d"))
-        // {
-        //     Vector3 position = this.transform.position;
-        //     position.x += this.speed;
-        //     this.transform.position = position;
-        // }
-        // if (Input.GetKey("a"))
-        // {
-        //     Vector3 position = this.transform.position;
-        //     position.x -= this.speed;
-        //     this.transform.position = position;
-        // }
-        // if (Input.GetKey("w"))
-        // {
-        //     Vector3 position = this.transform.position;
-        //     position.z += this.speed;
-        //     this.transform.position = position;
-        // }
-        // if (Input.GetKey("s"))
-        // {
-        //     Vector3 position = this.transform.position;
-        //     position.z -= this.speed;
-        //     this.transform.position = position;
-        // }
     }
 
     void OnTriggerEnter(Collider other)
     {
-        score += 1;
-        Debug.Log("Score: " + score);
-        Destroy(other.gameObject);
+        if (other.gameObject.tag == "Trap")
+        {
+            health -= 1;
+            Debug.Log("Health: " + health);
+        }
+        if (other.gameObject.tag == "Pickup")
+        {
+            score += 1;
+            Debug.Log("Score: " + score);
+            Destroy(other.gameObject);
+        }
     }
 }
