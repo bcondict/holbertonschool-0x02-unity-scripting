@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    private int score = 0;
     public Rigidbody m_Rigidbody;
     public float speed = 700;
 
     // Start is called before the first frame update
     void Start()
-    {
+    {}
 
-    }
     // Update is called once per frame
     void FixedUpdate()
     {
@@ -23,7 +23,6 @@ public class PlayerController : MonoBehaviour
             m_Rigidbody.AddForce(0, 0, speed * Time.deltaTime);
         if (Input.GetKey("s"))
             m_Rigidbody.AddForce(0, 0, -speed * Time.deltaTime);
-
 
         // if (Input.GetKey("d"))
         // {
@@ -49,5 +48,12 @@ public class PlayerController : MonoBehaviour
         //     position.z -= this.speed;
         //     this.transform.position = position;
         // }
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        score += 1;
+        Debug.Log("Score: " + score);
+        Destroy(other.gameObject);
     }
 }
