@@ -25,7 +25,6 @@ public class PlayerController : MonoBehaviour
             m_Rigidbody.AddForce(0, 0, -speed * Time.deltaTime);
 
 
-        /// other way to implement movement by transform
         // if (Input.GetKey("d"))
         // {
         //     Vector3 position = this.transform.position;
